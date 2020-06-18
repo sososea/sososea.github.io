@@ -195,7 +195,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2020-06-18 14:36:22 / Modified: 21:01:44" itemprop="dateCreated datePublished" datetime="2020-06-18T14:36:22+01:00">2020-06-18</time>
+              <time title="Created: 2020-06-18 14:36:22 / Modified: 21:12:57" itemprop="dateCreated datePublished" datetime="2020-06-18T14:36:22+01:00">2020-06-18</time>
             </span>
 
           
@@ -209,7 +209,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="看看新标签"><a href="#看看新标签" class="headerlink" title="看看新标签"></a>看看新标签</h1><h1 id="第六次使用-mathjax"><a href="#第六次使用-mathjax" class="headerlink" title="第六次使用 mathjax"></a>第六次使用 mathjax</h1><h1 id="第五次math"><a href="#第五次math" class="headerlink" title="第五次math"></a>第五次math</h1><h1 id="第四次使用"><a href="#第四次使用" class="headerlink" title="第四次使用"></a>第四次使用</h1><h1 id="第三次使用"><a href="#第三次使用" class="headerlink" title="第三次使用"></a>第三次使用</h1><h1 id="第二次使用"><a href="#第二次使用" class="headerlink" title="第二次使用"></a>第二次使用</h1><p>使用next 主题</p>
+          <h1 id="pdf-开启"><a href="#pdf-开启" class="headerlink" title="pdf 开启"></a>pdf 开启</h1><h1 id="看看新标签"><a href="#看看新标签" class="headerlink" title="看看新标签"></a>看看新标签</h1><h1 id="第六次使用-mathjax"><a href="#第六次使用-mathjax" class="headerlink" title="第六次使用 mathjax"></a>第六次使用 mathjax</h1><h1 id="第五次math"><a href="#第五次math" class="headerlink" title="第五次math"></a>第五次math</h1><h1 id="第四次使用"><a href="#第四次使用" class="headerlink" title="第四次使用"></a>第四次使用</h1><h1 id="第三次使用"><a href="#第三次使用" class="headerlink" title="第三次使用"></a>第三次使用</h1><h1 id="第二次使用"><a href="#第二次使用" class="headerlink" title="第二次使用"></a>第二次使用</h1><p>使用next 主题</p>
 <h1 id="The-math-formula"><a href="#The-math-formula" class="headerlink" title="The math formula"></a>The math formula</h1><p> $a^2+b^2=\alpha$</p>
 <h1 id="图床"><a href="#图床" class="headerlink" title="图床"></a>图床</h1><h1 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h1><h2 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h2><h4 id="mark-down"><a href="#mark-down" class="headerlink" title="mark down"></a>mark down</h4><p>更换主题</p>
 <script type="math/tex; mode=display">E_k = \frac{1}{2}mv^2</script><p><span style="color: red;">text</span></p>
@@ -457,6 +457,26 @@
 
 
 
+<script>
+document.querySelectorAll('.pdfobject-container').forEach(element => {
+  let url = element.dataset.target;
+  let pdfOpenParams = {
+    navpanes : 0,
+    toolbar  : 0,
+    statusbar: 0,
+    pagemode : 'thumbs',
+    view     : 'FitH'
+  };
+  let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+
+  if (NexT.utils.supportsPDFs()) {
+    element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;
+  } else {
+    element.innerHTML = `<iframe src="${fullURL}" style="height: ${element.dataset.height};" frameborder="0"></iframe>`;
+  }
+});
+</script>
 
 
 
