@@ -1,67 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>Modelling</title>
-      <link href="/2020/06/18/Modelling/"/>
-      <url>/2020/06/18/Modelling/</url>
-      
-        <content type="html"><![CDATA[<h1 id="First-model-001"><a href="#First-model-001" class="headerlink" title="First model 001"></a>First model 001</h1><p>A simple model for pattern formation is given by the following reaction-diffusion mechanism (in dimensionless coordinates):</p><script type="math/tex; mode=display">\begin{align}   \frac{\partial u}{\partial t} &=a-u+u^2v+\frac{\partial^2 u}{\partial x^2} \\   \frac{\partial v}{\partial t} &=\gamma b-\gamma u^2v+d\frac{\partial^2 v}{\partial x^2} \end{align}</script><p>Now if we look at the matrix</p><script type="math/tex; mode=display">\left[    \begin{array}{cc|c}      1&2&3\newline      4&5&6    \end{array}\right]</script><p>Then we can put the coefficient $\alpha$, and $\beta$， if the coefficient is less than 0, then </p><h2 id="Problems"><a href="#Problems" class="headerlink" title="Problems"></a>Problems</h2><p>What happens if some coefficient is 0,</p><h3 id="Another-case"><a href="#Another-case" class="headerlink" title="Another case"></a>Another case</h3><p>This is the case where</p><h1 id="Second-model"><a href="#Second-model" class="headerlink" title="Second model"></a>Second model</h1><p>Another simple pattern for this is when </p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>Measure and Probability</title>
+    <url>/2020/06/18/Measure-and-Probability/</url>
+    <content><![CDATA[<h1 id="Fundamental-theorem-0："><a href="#Fundamental-theorem-0：" class="headerlink" title="Fundamental theorem 0："></a>Fundamental theorem 0：</h1><p>Theorem: Let $f$,$g$ : $S \rightarrow \mathbf{R}$ be measurable and non-negative. Then</p>
+<script type="math/tex; mode=display">
+\int_S (f+g)dm =\int_S fdm+ \int_S gdm</script><p><font color=#FF00FF>Proof</font>: By theorem 2.4.1, we can find the increasing sequence of simple functions ($s_n$) that converges pointwise to $f$ and an increasing sequence of simple functions ($t_n$) that converges pointwise to $g$. Hence $(s_n+t_n)$ is an increasing sequence of simple functions that converges pointwise to $f+g$. So</p>
+<p>As s consequence</p>
+<a id="more"></a>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\int_S (f+g)dm & = \lim_{n \rightarrow \infty} \int_S (s_n + t_n) dm \\
+ & =  \lim_{n \rightarrow \infty} \int_S s_n  dm + \lim_{n \rightarrow \infty} \int_S  t_n dm\\
+ & =  \int_S fdm+ \int_S gdm
+\end{aligned}</script><h1 id="Proposition"><a href="#Proposition" class="headerlink" title="Proposition:"></a>Proposition:</h1><p>Proposition 1: </p>
+<h2 id="Corollary"><a href="#Corollary" class="headerlink" title="Corollary:"></a>Corollary:</h2><p>Corollary 2: </p>
+]]></content>
       <categories>
-          
-          <category> Math Model </category>
-          
-          <category> Competition </category>
-          
+        <category>Measure</category>
+        <category>Analysis</category>
+        <category>Lebesgue</category>
+        <category>Calculus</category>
+        <category>Topology</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> mathematical modelling </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Measure and Probability</title>
-      <link href="/2020/06/18/Measure-and-Probability/"/>
-      <url>/2020/06/18/Measure-and-Probability/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Fundamental-theorem-0："><a href="#Fundamental-theorem-0：" class="headerlink" title="Fundamental theorem 0："></a>Fundamental theorem 0：</h1><p>Theorem: Let $f$,$g$ : $S \rightarrow \mathbf{R}$ be measurable and non-negative. Then</p><script type="math/tex; mode=display">\int_S (f+g)dm =\int_S fdm+ \int_S gdm</script><p><font color=#FF00FF>Proof</font>: By theorem 2.4.1, we can find the increasing sequence of simple functions ($s_n$) that converges pointwise to $f$ and an increasing sequence of simple functions ($t_n$) that converges pointwise to $g$. Hence $(s_n+t_n)$ is an increasing sequence of simple functions that converges pointwise to $f+g$. So</p><p>As s consequence</p><a id="more"></a><script type="math/tex; mode=display">\begin{aligned}\int_S (f+g)dm & = \lim_{n \rightarrow \infty} \int_S (s_n + t_n) dm \\ & =  \lim_{n \rightarrow \infty} \int_S s_n  dm + \lim_{n \rightarrow \infty} \int_S  t_n dm\\ & =  \int_S fdm+ \int_S gdm\end{aligned}</script><h1 id="Proposition"><a href="#Proposition" class="headerlink" title="Proposition:"></a>Proposition:</h1><p>Proposition 1: </p><h2 id="Corollary"><a href="#Corollary" class="headerlink" title="Corollary:"></a>Corollary:</h2><p>Corollary 2: </p>]]></content>
-      
-      
+      <tags>
+        <tag>Probability</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Modelling</title>
+    <url>/2020/06/18/Modelling/</url>
+    <content><![CDATA[<h1 id="First-model-001-Stable"><a href="#First-model-001-Stable" class="headerlink" title="First model 001 Stable"></a>First model 001 Stable</h1><p>A simple model for pattern formation is given by the following reaction-diffusion mechanism (in dimensionless coordinates):</p>
+<script type="math/tex; mode=display">
+\begin{align}
+   \frac{\partial u}{\partial t} &=a-u+u^2v+\frac{\partial^2 u}{\partial x^2} \\
+   \frac{\partial v}{\partial t} &=\gamma b-\gamma u^2v+d\frac{\partial^2 v}{\partial x^2} 
+\end{align}</script><p>Now if we look at the matrix</p>
+<script type="math/tex; mode=display">
+\left[
+    \begin{array}{cc|c}
+      1&2&3\newline
+      4&5&6
+    \end{array}
+\right]</script><p>Then we can put the coefficient $\alpha$, and $\beta$， if the coefficient is less than 0, then </p>
+<h2 id="Problems"><a href="#Problems" class="headerlink" title="Problems"></a>Problems</h2><p>What happens if some coefficient is 0,</p>
+<h3 id="Another-case"><a href="#Another-case" class="headerlink" title="Another case"></a>Another case</h3><p>This is the case where</p>
+<h1 id="Second-model"><a href="#Second-model" class="headerlink" title="Second model"></a>Second model</h1><p>Another simple pattern for this is when </p>
+]]></content>
       <categories>
-          
-          <category> Measure </category>
-          
-          <category> Analysis </category>
-          
-          <category> Lebesgue </category>
-          
-          <category> Calculus </category>
-          
-          <category> Topology </category>
-          
+        <category>Math Model</category>
+        <category>Competition</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Probability </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>mathematical modelling</tag>
+      </tags>
+  </entry>
 </search>
