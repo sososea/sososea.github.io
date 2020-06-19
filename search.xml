@@ -8,7 +8,7 @@
       <link href="/2020/06/19/9231-s18-qp-13/"/>
       <url>/2020/06/19/9231-s18-qp-13/</url>
       
-        <content type="html"><![CDATA[<h1 id="Problem-1"><a href="#Problem-1" class="headerlink" title="Problem 1"></a>Problem 1</h1><p>The variable $x$ and $y$ are such that $y = 1$ when $x=0$, and </p><script type="math/tex; mode=display">(x+\frac{dy}{dx})^3=y^2+x.</script><p>(a) Find the value of $\frac{dy}{dx}$ when $x=0$.</p><font color=#FF00FF>Solution:</font><p>(a) Plugging $x=0$ and $y=-11$ into the equation, we have </p><script type="math/tex; mode=display">\frac{dy}{dx}=1</script>]]></content>
+        <content type="html"><![CDATA[<h1 id="Problem-1"><a href="#Problem-1" class="headerlink" title="Problem 1"></a>Problem 1</h1><p>The variable $x$ and $y$ are such that $y = 1$ when $x=0$, and </p><script type="math/tex; mode=display">(x+\frac{dy}{dx})^3=y^2+x.</script><a id="more"></a><p>(a) Find the value of $\frac{dy}{dx}$ when $x=0$.</p><font color=#FF00FF>Solution:</font><p>(a) Plugging $x=0$ and $y=-11$ into the equation, we have </p><script type="math/tex; mode=display">\frac{dy}{dx}=1</script>]]></content>
       
       
       <categories>
