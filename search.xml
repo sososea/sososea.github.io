@@ -12,6 +12,7 @@
  & =  \lim_{n \rightarrow \infty} \int_S s_n  dm + \lim_{n \rightarrow \infty} \int_S  t_n dm\\
  & =  \int_S fdm+ \int_S gdm
 \end{aligned}</script><h1 id="Proposition"><a href="#Proposition" class="headerlink" title="Proposition:"></a>Proposition:</h1><p>Proposition 1: </p>
+<h2 id="Corollary"><a href="#Corollary" class="headerlink" title="Corollary:"></a>Corollary:</h2><p>Corollary 2: </p>
 ]]></content>
       <categories>
         <category>Measure</category>
