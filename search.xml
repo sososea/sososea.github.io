@@ -1,109 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>一天</title>
-      <link href="/2020/06/19/%E4%B8%80%E5%A4%A9/"/>
-      <url>/2020/06/19/%E4%B8%80%E5%A4%A9/</url>
-      
-        <content type="html"><![CDATA[<h2 id="早上"><a href="#早上" class="headerlink" title="早上"></a>早上</h2><p>照例，一般是5点多就醒了，会拿起手机看看W上面疫情的情况，先看看美国，再看看中国，印度，然后打开微信，看看朋友圈，有没有什么消息， 一般也没什么特大的新闻，但好像不看也没什么事做，然后再刷刷虎扑，抖音，感觉生活无聊至极，抖音偶尔有些能让人开怀大笑，但早上起来也没什么情绪，刷一会又躺下了，继续睡。</p><a id="more"></a><p>有时候会6点多再醒，继续睡，睡到7点多，然后到8点，不过有时候如果做一个比较久的梦的话，那就会一直睡到8点，这时候就比较精神了，起来刷刷牙，热点牛奶，开始一天的工作了。说工作，其实也没什么事情，之前考试前好歹可以看看书，做做题，现在都考完了，老师也没联系我论文的题目之类的。</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>9231 s18 qp_13</title>
-      <link href="/2020/06/19/9231-s18-qp-13/"/>
-      <url>/2020/06/19/9231-s18-qp-13/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Problem-1"><a href="#Problem-1" class="headerlink" title="Problem 1"></a>Problem 1</h1><p>The variable $x$ and $y$ are such that $y = 1$ when $x=0$, and </p><script type="math/tex; mode=display">(x+\frac{dy}{dx})^3=y^2+x.</script><a id="more"></a><p>(a) Find the value of $\frac{dy}{dx}$ when $x=0$.</p><font color=#FF00FF>Solution:</font><p> Plugging $x=0$ and $y=-11$ into the equation, we have </p><script type="math/tex; mode=display">\frac{dy}{dx}=1</script><p>(b) Find also the value of $\frac{d^2 y}{d x^2}$ when $x = 0$.</p><font color=#FF00FF>Solution:</font><p>When</p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>Measure and Probability</title>
+    <url>/2020/06/18/Measure-and-Probability/</url>
+    <content><![CDATA[<h1 id="Fundamental-theorem-0："><a href="#Fundamental-theorem-0：" class="headerlink" title="Fundamental theorem 0："></a>Fundamental theorem 0：</h1><p>Theorem: Let $f$,$g$ : $S \rightarrow \mathbf{R}$ be measurable and non-negative. Then</p>
+<script type="math/tex; mode=display">
+\int_S (f+g)dm =\int_S fdm+ \int_S gdm</script><p><font color=#FF00FF>Proof</font>: By theorem 2.4.1, we can find the increasing sequence of simple functions ($s_n$) that converges pointwise to $f$ and an increasing sequence of simple functions ($t_n$) that converges pointwise to $g$. Hence $(s_n+t_n)$ is an increasing sequence of simple functions that converges pointwise to $f+g$. So</p>
+<p>As s consequence</p>
+<a id="more"></a>
+<script type="math/tex; mode=display">
+\begin{aligned}
+\int_S (f+g)dm & = \lim_{n \rightarrow \infty} \int_S (s_n + t_n) dm \\
+ & =  \lim_{n \rightarrow \infty} \int_S s_n  dm + \lim_{n \rightarrow \infty} \int_S  t_n dm\\
+ & =  \int_S fdm+ \int_S gdm
+\end{aligned}</script><h1 id="Proposition"><a href="#Proposition" class="headerlink" title="Proposition:"></a>Proposition:</h1><p>Proposition 1: </p>
+<h2 id="Corollary"><a href="#Corollary" class="headerlink" title="Corollary:"></a>Corollary:</h2><p>Corollary 2: </p>
+]]></content>
       <categories>
-          
-          <category> Further Pure </category>
-          
-          <category> pastpaper </category>
-          
+        <category>Test</category>
+        <category>Analysis</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> pastpaper </tag>
-            
-            <tag> futherpure </tag>
-            
-            <tag> 2018 </tag>
-            
-            <tag> p1 </tag>
-            
-            <tag> differentiation </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Modelling</title>
-      <link href="/2020/06/18/Modelling/"/>
-      <url>/2020/06/18/Modelling/</url>
-      
-        <content type="html"><![CDATA[<h1 id="First-model-001-Stable-MFDss"><a href="#First-model-001-Stable-MFDss" class="headerlink" title="First model 001 Stable MFDss"></a>First model 001 Stable MFDss</h1><p>A simple model for pattern formation is given by the following reaction-diffusion mechanism (in dimensionless coordinates):</p><script type="math/tex; mode=display">\begin{align}   \frac{\partial u}{\partial t} &=a-u+u^2v+\frac{\partial^2 u}{\partial x^2} \\   \frac{\partial v}{\partial t} &=\gamma b-\gamma u^2v+d\frac{\partial^2 v}{\partial x^2} \end{align}</script><p>Now if we look at the matrix</p><script type="math/tex; mode=display">\left[    \begin{array}{cc|c}      1&2&3\newline      4&5&6    \end{array}\right]</script><p>Then we can put the coefficient $\alpha$, and $\beta$， if the coefficient is less than 0, then </p><h2 id="Problems"><a href="#Problems" class="headerlink" title="Problems"></a>Problems</h2><p>What happens if some coefficient is 0,</p><h3 id="Another-case"><a href="#Another-case" class="headerlink" title="Another case"></a>Another case</h3><p>This is the case where</p><h1 id="Second-model"><a href="#Second-model" class="headerlink" title="Second model"></a>Second model</h1><p>Another simple pattern for this is when </p>]]></content>
-      
-      
+      <tags>
+        <tag>Probability</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>9231 s18 qp_13</title>
+    <url>/2020/06/19/9231-s18-qp-13/</url>
+    <content><![CDATA[<h1 id="Problem-1"><a href="#Problem-1" class="headerlink" title="Problem 1"></a>Problem 1</h1><p>The variable $x$ and $y$ are such that $y = 1$ when $x=0$, and </p>
+<script type="math/tex; mode=display">
+(x+\frac{dy}{dx})^3=y^2+x.</script><a id="more"></a>
+<p>(a) Find the value of $\frac{dy}{dx}$ when $x=0$.</p>
+<font color=#FF00FF>Solution:</font>
+
+<p> Plugging $x=0$ and $y=-11$ into the equation, we have </p>
+<script type="math/tex; mode=display">
+\frac{dy}{dx}=1</script><p>(b) Find also the value of $\frac{d^2 y}{d x^2}$ when $x = 0$.</p>
+<font color=#FF00FF>Solution:</font>
+
+<p>When</p>
+]]></content>
       <categories>
-          
-          <category> Test </category>
-          
-          <category> Mathematical Modelling </category>
-          
+        <category>Further Pure</category>
+        <category>pastpaper</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> mathematical modelling </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Measure and Probability</title>
-      <link href="/2020/06/18/Measure-and-Probability/"/>
-      <url>/2020/06/18/Measure-and-Probability/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Fundamental-theorem-0："><a href="#Fundamental-theorem-0：" class="headerlink" title="Fundamental theorem 0："></a>Fundamental theorem 0：</h1><p>Theorem: Let $f$,$g$ : $S \rightarrow \mathbf{R}$ be measurable and non-negative. Then</p><script type="math/tex; mode=display">\int_S (f+g)dm =\int_S fdm+ \int_S gdm</script><p><font color=#FF00FF>Proof</font>: By theorem 2.4.1, we can find the increasing sequence of simple functions ($s_n$) that converges pointwise to $f$ and an increasing sequence of simple functions ($t_n$) that converges pointwise to $g$. Hence $(s_n+t_n)$ is an increasing sequence of simple functions that converges pointwise to $f+g$. So</p><p>As s consequence</p><a id="more"></a><script type="math/tex; mode=display">\begin{aligned}\int_S (f+g)dm & = \lim_{n \rightarrow \infty} \int_S (s_n + t_n) dm \\ & =  \lim_{n \rightarrow \infty} \int_S s_n  dm + \lim_{n \rightarrow \infty} \int_S  t_n dm\\ & =  \int_S fdm+ \int_S gdm\end{aligned}</script><h1 id="Proposition"><a href="#Proposition" class="headerlink" title="Proposition:"></a>Proposition:</h1><p>Proposition 1: </p><h2 id="Corollary"><a href="#Corollary" class="headerlink" title="Corollary:"></a>Corollary:</h2><p>Corollary 2: </p>]]></content>
-      
-      
+      <tags>
+        <tag>pastpaper</tag>
+        <tag>futherpure</tag>
+        <tag>2018</tag>
+        <tag>p1</tag>
+        <tag>differentiation</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Modelling</title>
+    <url>/2020/06/18/Modelling/</url>
+    <content><![CDATA[<h1 id="First-model-001-Stable-MFDss"><a href="#First-model-001-Stable-MFDss" class="headerlink" title="First model 001 Stable MFDss"></a>First model 001 Stable MFDss</h1><p>A simple model for pattern formation is given by the following reaction-diffusion mechanism (in dimensionless coordinates):</p>
+<script type="math/tex; mode=display">
+\begin{align}
+   \frac{\partial u}{\partial t} &=a-u+u^2v+\frac{\partial^2 u}{\partial x^2} \\
+   \frac{\partial v}{\partial t} &=\gamma b-\gamma u^2v+d\frac{\partial^2 v}{\partial x^2} 
+\end{align}</script><p>Now if we look at the matrix</p>
+<script type="math/tex; mode=display">
+\left[
+    \begin{array}{cc|c}
+      1&2&3\newline
+      4&5&6
+    \end{array}
+\right]</script><p>Then we can put the coefficient $\alpha$, and $\beta$， if the coefficient is less than 0, then </p>
+<h2 id="Problems"><a href="#Problems" class="headerlink" title="Problems"></a>Problems</h2><p>What happens if some coefficient is 0,</p>
+<h3 id="Another-case"><a href="#Another-case" class="headerlink" title="Another case"></a>Another case</h3><p>This is the case where</p>
+<h1 id="Second-model"><a href="#Second-model" class="headerlink" title="Second model"></a>Second model</h1><p>Another simple pattern for this is when </p>
+]]></content>
       <categories>
-          
-          <category> Test </category>
-          
-          <category> Analysis </category>
-          
+        <category>Test</category>
+        <category>Mathematical Modelling</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Probability </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>mathematical modelling</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一天</title>
+    <url>/2020/06/19/%E4%B8%80%E5%A4%A9/</url>
+    <content><![CDATA[<h2 id="早上"><a href="#早上" class="headerlink" title="早上"></a>早上</h2><p>照例，一般是5点多就醒了，会拿起手机看看W上面疫情的情况，先看看美国，再看看中国，印度，然后打开微信，看看朋友圈，有没有什么消息， 一般也没什么特大的新闻，但好像不看也没什么事做，然后再刷刷虎扑，抖音，感觉生活无聊至极，抖音偶尔有些能让人开怀大笑，但早上起来也没什么情绪，刷一会又躺下了，继续睡。</p>
+<a id="more"></a>
+<p>有时候会6点多再醒，继续睡，睡到7点多，然后到8点，不过有时候如果做一个比较久的梦的话，那就会一直睡到8点，这时候就比较精神了，起来刷刷牙，热点牛奶，开始一天的工作了。说工作，其实也没什么事情，之前考试前好歹可以看看书，做做题，现在都考完了，老师也没联系我论文的题目之类的。</p>
+]]></content>
+  </entry>
 </search>
