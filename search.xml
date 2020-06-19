@@ -3,7 +3,7 @@
   <entry>
     <title>Measure and Probability</title>
     <url>/2020/06/18/Measure-and-Probability/</url>
-    <content><![CDATA[<h1 id="Fundamental-theorem-1："><a href="#Fundamental-theorem-1：" class="headerlink" title="Fundamental theorem 1："></a>Fundamental theorem 1：</h1><p>Theorem: Let $f$,$g$ : $S \rightarrow \mathbf{R}$ be measurable and non-negative. Then</p>
+    <content><![CDATA[<h1 id="Fundamental-theorem-0："><a href="#Fundamental-theorem-0：" class="headerlink" title="Fundamental theorem 0："></a>Fundamental theorem 0：</h1><p>Theorem: Let $f$,$g$ : $S \rightarrow \mathbf{R}$ be measurable and non-negative. Then</p>
 <script type="math/tex; mode=display">
 \int_S (f+g)dm =\int_S fdm+ \int_S gdm</script><p><font color=#FF00FF>Proof</font>: By theorem 2.4.1, we can find the increasing sequence of simple functions ($s_n$) that converges pointwise to $f$ and an increasing sequence of simple functions ($t_n$) that converges pointwise to $g$. Hence $(s_n+t_n)$ is an increasing sequence of simple functions that converges pointwise to $f+g$. So</p>
 <script type="math/tex; mode=display">
