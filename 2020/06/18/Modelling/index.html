@@ -28,7 +28,7 @@
 <meta property="og:description" content="First modelA simple model for pattern formation is given by the following reaction-diffusion mechanism (in dimensionless coordinates):  \begin{align}    \frac{\partial u}{\partial t} &amp;&#x3D;a-u+u^2v+\frac{">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-06-18T13:52:15.000Z">
-<meta property="article:modified_time" content="2020-06-19T08:03:49.270Z">
+<meta property="article:modified_time" content="2020-06-19T08:07:32.048Z">
 <meta property="article:author" content="黄仁祥">
 <meta property="article:tag" content="mathematical modelling">
 <meta name="twitter:card" content="summary">
@@ -207,7 +207,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-06-19 16:03:49" itemprop="dateModified" datetime="2020-06-19T16:03:49+08:00">2020-06-19</time>
+                <time title="修改时间：2020-06-19 16:07:32" itemprop="dateModified" datetime="2020-06-19T16:07:32+08:00">2020-06-19</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -249,7 +249,7 @@
 \right]</script><p>Then we can put the coefficient $\alpha$, and $\beta$， if the coefficient is less than 0, then </p>
 <h2 id="Problems"><a href="#Problems" class="headerlink" title="Problems"></a>Problems</h2><p>What happens if some coefficient is 0,</p>
 <h3 id="Another-case"><a href="#Another-case" class="headerlink" title="Another case"></a>Another case</h3><p>This is the case where</p>
-<h1 id="Second-model"><a href="#Second-model" class="headerlink" title="Second model"></a>Second model</h1><p>Another simple pattern for this is </p>
+<h1 id="Second-model"><a href="#Second-model" class="headerlink" title="Second model"></a>Second model</h1><p>Another simple pattern for this is when </p>
 
     </div>
 
@@ -465,6 +465,59 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
   
 
   
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
 
   
 
