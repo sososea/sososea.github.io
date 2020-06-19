@@ -17,11 +17,8 @@
 <h2 id="Corollary"><a href="#Corollary" class="headerlink" title="Corollary:"></a>Corollary:</h2><p>Corollary 2: </p>
 ]]></content>
       <categories>
-        <category>Measure</category>
+        <category>Test</category>
         <category>Analysis</category>
-        <category>Lebesgue</category>
-        <category>Calculus</category>
-        <category>Topology</category>
       </categories>
       <tags>
         <tag>Probability</tag>
@@ -48,11 +45,26 @@
 <h1 id="Second-model"><a href="#Second-model" class="headerlink" title="Second model"></a>Second model</h1><p>Another simple pattern for this is when </p>
 ]]></content>
       <categories>
-        <category>Math Model</category>
-        <category>Competition</category>
+        <category>Test</category>
+        <category>Mathematical Modelling</category>
       </categories>
       <tags>
         <tag>mathematical modelling</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>9231 s18 qp_13</title>
+    <url>/2020/06/19/9231-s18-qp-13/</url>
+    <content><![CDATA[<h1 id="Problme-1"><a href="#Problme-1" class="headerlink" title="Problme 1"></a>Problme 1</h1><p>The variable $x$ and $y$ are such that $y = 1$ when $x=0$, and</p>
+<script type="math/tex; mode=display">
+(x+\frac{dy}{dx})^3=y^2+x.</script><h2 id="Find-the-value-of-frac-dy-dx-when-x-0"><a href="#Find-the-value-of-frac-dy-dx-when-x-0" class="headerlink" title="Find the value of $\frac{dy}{dx}$ when $x=0$"></a>Find the value of $\frac{dy}{dx}$ when $x=0$</h2><p>Solution:</p>
+]]></content>
+      <categories>
+        <category>Further Pure</category>
+        <category>pastpaper</category>
+      </categories>
+      <tags>
+        <tag>pastpaper, futherpure, 2018, p1</tag>
       </tags>
   </entry>
 </search>
