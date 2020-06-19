@@ -55,9 +55,9 @@
   <entry>
     <title>9231 s18 qp_13</title>
     <url>/2020/06/19/9231-s18-qp-13/</url>
-    <content><![CDATA[<h1 id="Problme-1"><a href="#Problme-1" class="headerlink" title="Problme 1"></a>Problme 1</h1><p>The variable $x$ and $y$ are such that $y = 1$ when $x=0$, and</p>
+    <content><![CDATA[<h1 id="Problem-1"><a href="#Problem-1" class="headerlink" title="Problem 1"></a>Problem 1</h1><p>The variable $x$ and $y$ are such that $y = 1$ when $x=0$, and </p>
 <script type="math/tex; mode=display">
-(x+\frac{dy}{dx})^3=y^2+x.</script><h2 id="Find-the-value-of-frac-dy-dx-when-x-0"><a href="#Find-the-value-of-frac-dy-dx-when-x-0" class="headerlink" title="Find the value of $\frac{dy}{dx}$ when $x=0$"></a>Find the value of $\frac{dy}{dx}$ when $x=0$</h2><p>Solution:</p>
+(x+\frac{dy}{dx})^3=y^2+x.</script><h2 id="a"><a href="#a" class="headerlink" title="(a)"></a>(a)</h2><p>Find the value of $\frac{dy}{dx}$ when $x=0$<br>Solution:</p>
 ]]></content>
       <categories>
         <category>Further Pure</category>
