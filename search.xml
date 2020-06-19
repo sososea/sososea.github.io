@@ -28,7 +28,7 @@
   <entry>
     <title>Modelling</title>
     <url>/2020/06/18/Modelling/</url>
-    <content><![CDATA[<h1 id="First-model-1"><a href="#First-model-1" class="headerlink" title="First model 1"></a>First model 1</h1><p>A simple model for pattern formation is given by the following reaction-diffusion mechanism (in dimensionless coordinates):</p>
+    <content><![CDATA[<h1 id="First-model-001"><a href="#First-model-001" class="headerlink" title="First model 001"></a>First model 001</h1><p>A simple model for pattern formation is given by the following reaction-diffusion mechanism (in dimensionless coordinates):</p>
 <script type="math/tex; mode=display">
 \begin{align}
    \frac{\partial u}{\partial t} &=a-u+u^2v+\frac{\partial^2 u}{\partial x^2} \\
