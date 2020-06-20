@@ -84,10 +84,14 @@
     <title>Manim</title>
     <url>/2020/06/20/Manim/</url>
     <content><![CDATA[<h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><ul>
-<li>python</li>
-<li>MiKTex</li>
-<li></li>
+<li>python  need to download some code, <em>copy and paste to form get_pip.py</em></li>
+<li>MiKTex </li>
+<li>SOS</li>
+<li>ffmpeg</li>
+<li>pycairo <em>notice: the version should be the same with python</em></li>
 </ul>
+<p>When all finished, run </p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python3</span></span><br><span class="line">python -m install -r requirement.txt</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>Python</category>
