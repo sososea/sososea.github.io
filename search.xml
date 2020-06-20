@@ -80,4 +80,21 @@
         <tag>mathematical modelling</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Manim</title>
+    <url>/2020/06/20/Manim/</url>
+    <content><![CDATA[<h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><ul>
+<li>python</li>
+<li>MiKTex</li>
+<li></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Python</category>
+        <category>Animation</category>
+      </categories>
+      <tags>
+        <tag>animation</tag>
+      </tags>
+  </entry>
 </search>
