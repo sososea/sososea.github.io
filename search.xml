@@ -94,8 +94,7 @@
 <p>When all finished, run </p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python3</span></span><br><span class="line">python -m install -r requirement.txt</span><br></pre></td></tr></table></figure>
 <p><strong>Test</strong>:<br>To test whether everything is ok, just type</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"> <span class="comment"># This is an animation made to show the process</span></span><br><span class="line">python -m manim example_scenes.py SquareTocircle -pl</span><br></pre></td></tr></table></figure>
-<h1 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h1><h2 id="What-is-config"><a href="#What-is-config" class="headerlink" title="What is config."></a>What is config.</h2><p>Config is a dictionary, in it we can create <strong>objects</strong> or <strong>numerical variables</strong> to be used in the scene. To all all these objects you must type <strong>“self.”</strong> before writing it’s name.</p>
+<h2 id=""><a href="#" class="headerlink" title=""></a><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"> <span class="comment"># This is an animation made to show the process</span></span><br><span class="line">python -m manim example_scenes.py SquareTocircle -pl</span><br></pre></td></tr></table></figure></h2><h1 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h1><h2 id="What-is-config"><a href="#What-is-config" class="headerlink" title="What is config."></a>What is config.</h2><p>Config is a dictionary, in it we can create <strong>objects</strong> or <strong>numerical variables</strong> to be used in the scene. To all all these objects you must type <strong>“self.”</strong> before writing it’s name.</p>
 <h2 id="Change-background-color"><a href="#Change-background-color" class="headerlink" title="Change background color"></a>Change background color</h2><h2 id="Remove-background-stroke-with-width-of-texts"><a href="#Remove-background-stroke-with-width-of-texts" class="headerlink" title="Remove background stroke with width of texts"></a>Remove background stroke with width of texts</h2>]]></content>
       <categories>
         <category>Python</category>
@@ -104,29 +103,5 @@
       <tags>
         <tag>animation</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Markdown</title>
-    <url>/2020/06/20/Markdown/</url>
-    <content><![CDATA[<p>Markdown 目录：<br>[TOC]</p>
-<p>Markdown 标题：</p>
-<h1 id="这是-H1"><a href="#这是-H1" class="headerlink" title="这是 H1"></a>这是 H1</h1><h2 id="这是-H2"><a href="#这是-H2" class="headerlink" title="这是 H2"></a>这是 H2</h2><h3 id="这是-H3"><a href="#这是-H3" class="headerlink" title="这是 H3"></a>这是 H3</h3><p>Markdown 列表：</p>
-<ul>
-<li>列表项目</li>
-</ul>
-<ol>
-<li>列表项目</li>
-</ol>
-<p><em>斜体</em>或_斜体_<br><strong>粗体</strong><br><strong><em>加粗斜体</em></strong><br><del>删除线</del></p>
-<p>Markdown 插入链接：<br><a href="链接网址" title="标题">链接文字</a></p>
-<p>Markdown 插入图片：<br><img src="/path/to/img.jpg" alt="alt text" title="Title"></p>
-<p>Markdown 插入代码块：<br>    <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/python3</span></span><br><span class="line">print(<span class="string">"Hello, World!"</span>);</span><br></pre></td></tr></table></figure></p>
-<p>Markdown 引用：</p>
-<blockquote>
-<p>引用内容</p>
-</blockquote>
-<h2 id="Markdown-分割线："><a href="#Markdown-分割线：" class="headerlink" title="Markdown 分割线："></a>Markdown 分割线：</h2><p>Markdown 换行：<br><br></p>
-<p>Markdown 段首缩进：<br>&ensp; or &#8194; 表示一个半角的空格<br>&emsp; or &#8195;  表示一个全角的空格<br>&emsp;&emsp; 两个全角的空格（用的比较多）<br>&nbsp; or &#160; 不断行的空白格</p>
-]]></content>
   </entry>
 </search>
