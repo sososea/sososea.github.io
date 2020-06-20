@@ -101,6 +101,7 @@
 </ul>
 <h1 id="TEXT-FORMAT"><a href="#TEXT-FORMAT" class="headerlink" title="TEXT FORMAT"></a>TEXT FORMAT</h1><p>Turtorial material, notice </p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python manim.py tutorial\<span class="number">1</span>_text_format.py -pl</span><br></pre></td></tr></table></figure>
+<p>Remark: it is also ok to run in VISUAL studio code</p>
 <h1 id="TEX-Formula"><a href="#TEX-Formula" class="headerlink" title="TEX Formula"></a>TEX Formula</h1><h1 id="Arrays"><a href="#Arrays" class="headerlink" title="Arrays"></a>Arrays</h1><h1 id="Transformation"><a href="#Transformation" class="headerlink" title="Transformation"></a>Transformation</h1><h1 id="Visual-Tools"><a href="#Visual-Tools" class="headerlink" title="Visual Tools"></a>Visual Tools</h1><h1 id="Introduction-to-2-D-graphs"><a href="#Introduction-to-2-D-graphs" class="headerlink" title="Introduction to 2-D graphs"></a>Introduction to 2-D graphs</h1><h1 id="Introduction-to-3-D-graphs"><a href="#Introduction-to-3-D-graphs" class="headerlink" title="Introduction to 3-D graphs"></a>Introduction to 3-D graphs</h1><h1 id="Add-audio"><a href="#Add-audio" class="headerlink" title="Add audio"></a>Add audio</h1><h1 id="Insert-pictures-and-SVGs"><a href="#Insert-pictures-and-SVGs" class="headerlink" title="Insert pictures and SVGs"></a>Insert pictures and SVGs</h1><h1 id="First-Project"><a href="#First-Project" class="headerlink" title="First Project"></a>First Project</h1>]]></content>
       <categories>
         <category>Python</category>
