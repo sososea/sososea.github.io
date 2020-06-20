@@ -83,7 +83,7 @@
   <entry>
     <title>Manim</title>
     <url>/2020/06/20/Manim/</url>
-    <content><![CDATA[<h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><ul>
+    <content><![CDATA[<h1 id="Installment"><a href="#Installment" class="headerlink" title="Installment"></a>Installment</h1><ul>
 <li>python  need to download some code, <em>copy and paste to form get_pip.py</em></li>
 <li>MiKTex </li>
 <li>SOS</li>
@@ -92,7 +92,9 @@
 </ul>
 <p>When all finished, run </p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python3</span></span><br><span class="line">python -m install -r requirement.txt</span><br></pre></td></tr></table></figure>
-]]></content>
+<p><strong>Test</strong>:<br>To test whether everything is ok, just type</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"> <span class="comment"># This is an animation made to show the process</span></span><br><span class="line">python -m manim example_scenes.py SquareTocircle -pl</span><br></pre></td></tr></table></figure>
+<h1 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h1><h2 id="What-is-config"><a href="#What-is-config" class="headerlink" title="What is config"></a>What is config</h2><h2 id="Change-background-color"><a href="#Change-background-color" class="headerlink" title="Change background color"></a>Change background color</h2><h2 id="Remove-background-stroke-with-width-of-texts"><a href="#Remove-background-stroke-with-width-of-texts" class="headerlink" title="Remove background stroke with width of texts"></a>Remove background stroke with width of texts</h2>]]></content>
       <categories>
         <category>Python</category>
         <category>Animation</category>
