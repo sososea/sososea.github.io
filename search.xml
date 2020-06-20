@@ -106,7 +106,10 @@
 <p>Remark: it is also ok to run in VISUAL studio code</p>
 <h2 id="Position"><a href="#Position" class="headerlink" title="Position"></a>Position</h2><ul>
 <li>absolute position</li>
-<li>relative position</li>
+<li>relative position  <ul>
+<li>notice: the difference with “move to”  and “next to”</li>
+</ul>
+</li>
 </ul>
 <h2 id="Grid"><a href="#Grid" class="headerlink" title="Grid"></a>Grid</h2><ul>
 <li>line 4-92 copy + paste<h1 id="TEX-Formula"><a href="#TEX-Formula" class="headerlink" title="TEX Formula"></a>TEX Formula</h1></li>
