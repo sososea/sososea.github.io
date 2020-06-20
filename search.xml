@@ -112,9 +112,17 @@
 </li>
 </ul>
 <h2 id="Grid"><a href="#Grid" class="headerlink" title="Grid"></a>Grid</h2><ul>
-<li>line 4-92 copy + paste<h1 id="TEX-Formula"><a href="#TEX-Formula" class="headerlink" title="TEX Formula"></a>TEX Formula</h1></li>
+<li>line 4-92 copy + paste</li>
 </ul>
-<h1 id="Arrays"><a href="#Arrays" class="headerlink" title="Arrays"></a>Arrays</h1><h1 id="Transformation"><a href="#Transformation" class="headerlink" title="Transformation"></a>Transformation</h1><h1 id="Visual-Tools"><a href="#Visual-Tools" class="headerlink" title="Visual Tools"></a>Visual Tools</h1><h1 id="Introduction-to-2-D-graphs"><a href="#Introduction-to-2-D-graphs" class="headerlink" title="Introduction to 2-D graphs"></a>Introduction to 2-D graphs</h1><h1 id="Introduction-to-3-D-graphs"><a href="#Introduction-to-3-D-graphs" class="headerlink" title="Introduction to 3-D graphs"></a>Introduction to 3-D graphs</h1><h1 id="Add-audio"><a href="#Add-audio" class="headerlink" title="Add audio"></a>Add audio</h1><h1 id="Insert-pictures-and-SVGs"><a href="#Insert-pictures-and-SVGs" class="headerlink" title="Insert pictures and SVGs"></a>Insert pictures and SVGs</h1><h1 id="First-Project"><a href="#First-Project" class="headerlink" title="First Project"></a>First Project</h1>]]></content>
+<p>When everything is finished, you can try “text_format.py” to see all kinds of settings.</p>
+<h1 id="TEX-Formula"><a href="#TEX-Formula" class="headerlink" title="TEX Formula"></a>TEX Formula</h1><ul>
+<li>Notice the difference with “TextMobject()” and “TexMoject”</li>
+<li>For pure tex. just add TexMobject(r”\int_S (g+k)dm “)</li>
+<li>for pure text, just add TextMobject(“contents”)</li>
+<li>for mixed, just add TextMobject( “Suppose $ \\int_S (f+g)dm $”)</li>
+<li>for mixed, if nicer, add TextMobject( “Suppose $ \\displaystyle\\int_S (f+g)dm  $”)<h1 id="Arrays"><a href="#Arrays" class="headerlink" title="Arrays"></a>Arrays</h1></li>
+</ul>
+<h1 id="Transformation"><a href="#Transformation" class="headerlink" title="Transformation"></a>Transformation</h1><h1 id="Visual-Tools"><a href="#Visual-Tools" class="headerlink" title="Visual Tools"></a>Visual Tools</h1><h1 id="Introduction-to-2-D-graphs"><a href="#Introduction-to-2-D-graphs" class="headerlink" title="Introduction to 2-D graphs"></a>Introduction to 2-D graphs</h1><h1 id="Introduction-to-3-D-graphs"><a href="#Introduction-to-3-D-graphs" class="headerlink" title="Introduction to 3-D graphs"></a>Introduction to 3-D graphs</h1><h1 id="Add-audio"><a href="#Add-audio" class="headerlink" title="Add audio"></a>Add audio</h1><h1 id="Insert-pictures-and-SVGs"><a href="#Insert-pictures-and-SVGs" class="headerlink" title="Insert pictures and SVGs"></a>Insert pictures and SVGs</h1><h1 id="First-Project"><a href="#First-Project" class="headerlink" title="First Project"></a>First Project</h1>]]></content>
       <categories>
         <category>Python</category>
         <category>Animation</category>
