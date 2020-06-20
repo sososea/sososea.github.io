@@ -94,15 +94,24 @@
 <p>When all finished, run </p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python3</span></span><br><span class="line">python -m install -r requirement.txt</span><br></pre></td></tr></table></figure>
 <p><strong>Test</strong>:<br>To test whether everything is ok, just type</p>
-<h2 id=""><a href="#" class="headerlink" title=""></a><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"> <span class="comment"># This is an animation made to show the process</span></span><br><span class="line">python -m manim example_scenes.py SquareTocircle -pl</span><br></pre></td></tr></table></figure></h2><h1 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h1><ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"> <span class="comment"># This is an animation made to show the process</span></span><br><span class="line">python -m manim example_scenes.py SquareTocircle -pl</span><br></pre></td></tr></table></figure>
+<hr>
+<h1 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h1><ul>
 <li>What is config.</li>
 <li>Change background color</li>
 <li>Remove background stroke with width of texts </li>
 </ul>
 <h1 id="TEXT-FORMAT"><a href="#TEXT-FORMAT" class="headerlink" title="TEXT FORMAT"></a>TEXT FORMAT</h1><p>Turtorial material, notice </p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python manim.py tutorial\<span class="number">1</span>_text_format.py -pl</span><br></pre></td></tr></table></figure>
+<h2 id="text"><a href="#text" class="headerlink" title="text"></a>text</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python manim.py tutorial\<span class="number">1</span>_text_format.py -pl</span><br></pre></td></tr></table></figure>
 <p>Remark: it is also ok to run in VISUAL studio code</p>
-<h1 id="TEX-Formula"><a href="#TEX-Formula" class="headerlink" title="TEX Formula"></a>TEX Formula</h1><h1 id="Arrays"><a href="#Arrays" class="headerlink" title="Arrays"></a>Arrays</h1><h1 id="Transformation"><a href="#Transformation" class="headerlink" title="Transformation"></a>Transformation</h1><h1 id="Visual-Tools"><a href="#Visual-Tools" class="headerlink" title="Visual Tools"></a>Visual Tools</h1><h1 id="Introduction-to-2-D-graphs"><a href="#Introduction-to-2-D-graphs" class="headerlink" title="Introduction to 2-D graphs"></a>Introduction to 2-D graphs</h1><h1 id="Introduction-to-3-D-graphs"><a href="#Introduction-to-3-D-graphs" class="headerlink" title="Introduction to 3-D graphs"></a>Introduction to 3-D graphs</h1><h1 id="Add-audio"><a href="#Add-audio" class="headerlink" title="Add audio"></a>Add audio</h1><h1 id="Insert-pictures-and-SVGs"><a href="#Insert-pictures-and-SVGs" class="headerlink" title="Insert pictures and SVGs"></a>Insert pictures and SVGs</h1><h1 id="First-Project"><a href="#First-Project" class="headerlink" title="First Project"></a>First Project</h1>]]></content>
+<h2 id="Position"><a href="#Position" class="headerlink" title="Position"></a>Position</h2><ul>
+<li>absolute position</li>
+<li>relative position</li>
+</ul>
+<h2 id="Grid"><a href="#Grid" class="headerlink" title="Grid"></a>Grid</h2><ul>
+<li>line 4-92 copy + paste<h1 id="TEX-Formula"><a href="#TEX-Formula" class="headerlink" title="TEX Formula"></a>TEX Formula</h1></li>
+</ul>
+<h1 id="Arrays"><a href="#Arrays" class="headerlink" title="Arrays"></a>Arrays</h1><h1 id="Transformation"><a href="#Transformation" class="headerlink" title="Transformation"></a>Transformation</h1><h1 id="Visual-Tools"><a href="#Visual-Tools" class="headerlink" title="Visual Tools"></a>Visual Tools</h1><h1 id="Introduction-to-2-D-graphs"><a href="#Introduction-to-2-D-graphs" class="headerlink" title="Introduction to 2-D graphs"></a>Introduction to 2-D graphs</h1><h1 id="Introduction-to-3-D-graphs"><a href="#Introduction-to-3-D-graphs" class="headerlink" title="Introduction to 3-D graphs"></a>Introduction to 3-D graphs</h1><h1 id="Add-audio"><a href="#Add-audio" class="headerlink" title="Add audio"></a>Add audio</h1><h1 id="Insert-pictures-and-SVGs"><a href="#Insert-pictures-and-SVGs" class="headerlink" title="Insert pictures and SVGs"></a>Insert pictures and SVGs</h1><h1 id="First-Project"><a href="#First-Project" class="headerlink" title="First Project"></a>First Project</h1>]]></content>
       <categories>
         <category>Python</category>
         <category>Animation</category>
