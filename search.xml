@@ -21,6 +21,7 @@
 <li>Change background color</li>
 <li>Remove background stroke with width of texts </li>
 </ul>
+<hr>
 <h1 id="TEXT-FORMAT"><a href="#TEXT-FORMAT" class="headerlink" title="TEXT FORMAT"></a>TEXT FORMAT</h1><p>Turtorial material, notice </p>
 <h2 id="text"><a href="#text" class="headerlink" title="text"></a>text</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python manim.py tutorial\<span class="number">1</span>_text_format.py -pl</span><br></pre></td></tr></table></figure>
 <p>Remark: it is also ok to run in VISUAL studio code</p>
@@ -31,19 +32,17 @@
 </ul>
 </li>
 </ul>
-<h2 id="Grid"><a href="#Grid" class="headerlink" title="Grid"></a>Grid</h2><ul>
-<li>line 4-92 copy + paste</li>
-</ul>
-<p>When everything is finished, you can try “text_format.py” to see all kinds of settings.</p>
+<h2 id="Grid"><a href="#Grid" class="headerlink" title="Grid"></a>Grid</h2><h2 id="line-4-92-copy-paste"><a href="#line-4-92-copy-paste" class="headerlink" title="- line 4-92 copy + paste"></a>- line 4-92 copy + paste</h2><p>When everything is finished, you can try “text_format.py” to see all kinds of settings.</p>
 <h1 id="TEX-Formula"><a href="#TEX-Formula" class="headerlink" title="TEX Formula"></a>TEX Formula</h1><ul>
 <li>Notice the difference with “TextMobject()” and “TexMoject”</li>
 <li>For pure tex. just add TexMobject(r”\int_S (g+k)dm “)</li>
 <li>for pure text, just add TextMobject(“contents”)</li>
 <li>for mixed, just add TextMobject( “Suppose $ \\int_S (f+g)dm $”)</li>
-<li><p>for mixed, if nicer, add TextMobject( “Suppose $ \\displaystyle\\int_S (f+g)dm  $”)</p>
-<h1 id="Arrays"><a href="#Arrays" class="headerlink" title="Arrays"></a>Arrays</h1></li>
-<li><p>Notice the differnece with “norm_text” and “array_text”: assignment value in one block or differents blocks.<br>for array_text, one can assign value in array_text[0], array_text[1], …</p>
-</li>
+<li>for mixed, if nicer, add TextMobject( “Suppose $ \\displaystyle\\int_S (f+g)dm  $”)</li>
+</ul>
+<hr>
+<h1 id="Arrays"><a href="#Arrays" class="headerlink" title="Arrays"></a>Arrays</h1><ul>
+<li>Notice the differnece with “norm_text” and “array_text”: assignment value in one block or differents blocks.<br>for array_text, one can assign value in array_text[0], array_text[1], …</li>
 <li><p>Set color: text[0].set_color(RED)</p>
 </li>
 <li><p>**Problem: How to type chinese”</p>
@@ -65,14 +64,15 @@ for i,color in [(2,RED),(4,PINK)]: # sometimes you can try zip
     text[i].set_color(color)
 </code></pre>
 </li>
-<li><p>[x] <em>args and **kwargs in Function Calls [</em>args](h<a href="https://www.digitalocean.com/community/tutorials/how-to-use-args-and-kwargs-in-python-3" target="_blank" rel="noopener">https://www.digitalocean.com/community/tutorials/how-to-use-args-and-kwargs-in-python-3</a> “order”)</p>
+<li><p>[x] <em>args and *</em>kwargs in Function Calls. </p>
+<p><a href="https://www.digitalocean.com/community/tutorials/how-to-use-args-and-kwargs-in-python-3" target="_blank" rel="noopener" title="order">*args</a></p>
 </li>
 <li><p>[x] Write the press release</p>
 </li>
 </ul>
-<p>this is the end.</p>
-<h1 id="Transformation"><a href="#Transformation" class="headerlink" title="Transformation"></a>Transformation</h1><p>you need to check</p>
+<h2 id="this-is-the-end"><a href="#this-is-the-end" class="headerlink" title="this is the end."></a>this is the end.</h2><h1 id="Transformation"><a href="#Transformation" class="headerlink" title="Transformation"></a>Transformation</h1><p>you need to check</p>
 <ul>
+<li>[x] <em>args and *</em>kwargs in Function Calls.</li>
 <li>[ ] Update the website</li>
 <li>[ ] Contact the media</li>
 </ul>
