@@ -166,7 +166,7 @@
 \begin{aligned*}
 \sum \alpha^2 = \alpha^2 + \beta^2 + \gamma^2 & = (\alpha + \beta + \gamma )^2 - 2(\alpha\beta + \beta \gamma + \alpha \gamma) \\
 & = (\sum \alpha)^2 - 2 \sum \alpha \beta 
-\end{aligned* }</script><p>ii. </p>
+\end{aligned*}</script><p>ii. </p>
 <script type="math/tex; mode=display">
 \sum \alpha^2 \beta ^2 = \alpha^2 \beta ^2 +  \beta ^2 \gamma^2 + \alpha^2 \gamma ^2 = (\alpha\beta + \beta\gamma + \alpha\gamma)^2 -  2\alpha\beta\gamma(\alpha + \beta + \gamma) = \big(\sum \alpha\beta \big)^2 - 2\sum \alpha \sum \alpha\beta\gamma.</script><p>iii. </p>
 <script type="math/tex; mode=display">
