@@ -59,21 +59,8 @@
 </li>
 <li><p>use for to loop, sometimes it is convenient.</p>
 <p>you can even try:</p>
-<pre><code class="lang-python"># !text color
-for i,color in [(2,RED),(4,PINK)]: # sometimes you can try zip
-    text[i].set_color(color)
-</code></pre>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">  <span class="comment"># !text color</span></span><br><span class="line">  <span class="keyword">for</span> i,color <span class="keyword">in</span> [(<span class="number">2</span>,RED),(<span class="number">4</span>,PINK)]: <span class="comment"># sometimes you can try zip</span></span><br><span class="line">      text[i].set_color(color)</span><br><span class="line">   ``` </span><br><span class="line">- [x] *args <span class="keyword">and</span> **kwargs <span class="keyword">in</span> Function Calls. </span><br><span class="line"></span><br><span class="line">  [*args](https://www.digitalocean.com/community/tutorials/how-to-use-args-<span class="keyword">and</span>-kwargs-<span class="keyword">in</span>-python<span class="number">-3</span> <span class="string">"order"</span>)</span><br><span class="line">  </span><br><span class="line">- check box still next work properly.</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment"># Transformation</span></span><br><span class="line"></span><br><span class="line">-  Transform `self.play(Transform(texto1,texto2))`  </span><br><span class="line">-  Replacement `self.play(ReplacementTransform(text1,text2))`</span><br><span class="line">-  notice the difference between transform <span class="keyword">and</span> replacementtransform</span><br><span class="line">-  Copy Content `ReplacementTransform(formula[<span class="number">2</span>].copy(),formula[<span class="number">8</span>]),`  .copy needed!</span><br><span class="line"></span><br><span class="line">-  Change color <span class="keyword">and</span> size: more useful to use</span><br><span class="line"></span><br><span class="line">   ```python</span><br><span class="line">   text_generate_target()</span><br><span class="line">   text.target.shift(RIGHT*<span class="number">2</span>)</span><br><span class="line">   text.target.scale(<span class="number">2</span>)</span><br><span class="line">   text.target.set_color(RED)</span><br><span class="line"></span><br><span class="line">   self.play(</span><br><span class="line">     MoveToTarget(text)</span><br><span class="line">     run_time=<span class="number">2</span></span><br><span class="line">   )</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>[x] <em>args and *</em>kwargs in Function Calls. </p>
-<p><a href="https://www.digitalocean.com/community/tutorials/how-to-use-args-and-kwargs-in-python-3" target="_blank" rel="noopener" title="order">*args</a></p>
-</li>
-<li><p>check box still next work properly.</p>
-</li>
-</ul>
-<h1 id="Transformation"><a href="#Transformation" class="headerlink" title="Transformation"></a>Transformation</h1><ul>
-<li>Transform <code>self.play(Transform(texto1,texto2))</code>  </li>
-<li>Replacement <code>self.play(ReplacementTransform(text1,text2))</code></li>
-<li>Copy Content <code>ReplacementTransform(formula[2].copy(),formula[8]),</code></li>
 </ul>
 <h1 id="Visual-Tools"><a href="#Visual-Tools" class="headerlink" title="Visual Tools"></a>Visual Tools</h1><h1 id="Introduction-to-2-D-graphs"><a href="#Introduction-to-2-D-graphs" class="headerlink" title="Introduction to 2-D graphs"></a>Introduction to 2-D graphs</h1><h1 id="Introduction-to-3-D-graphs"><a href="#Introduction-to-3-D-graphs" class="headerlink" title="Introduction to 3-D graphs"></a>Introduction to 3-D graphs</h1><h1 id="Add-audio"><a href="#Add-audio" class="headerlink" title="Add audio"></a>Add audio</h1><h1 id="Insert-pictures-and-SVGs"><a href="#Insert-pictures-and-SVGs" class="headerlink" title="Insert pictures and SVGs"></a>Insert pictures and SVGs</h1><h1 id="First-Project"><a href="#First-Project" class="headerlink" title="First Project"></a>First Project</h1>]]></content>
       <categories>
@@ -162,6 +149,21 @@ for i,color in [(2,RED),(4,PINK)]: # sometimes you can try zip
       </categories>
       <tags>
         <tag>mathematical modelling</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Roots of polynomial</title>
+    <url>/2020/06/24/Roots-of-polynomial/</url>
+    <content><![CDATA[<h1 id="Relations-of-the-roots-in-polynomial-equations"><a href="#Relations-of-the-roots-in-polynomial-equations" class="headerlink" title="Relations of the roots in polynomial equations"></a>Relations of the roots in polynomial equations</h1><h2 id="Quadratics-ax-2-bx-c-0-with-roots-alpha-beta"><a href="#Quadratics-ax-2-bx-c-0-with-roots-alpha-beta" class="headerlink" title="Quadratics $ax^2 + bx + c = 0$, with roots $\alpha, \beta$"></a>Quadratics $ax^2 + bx + c = 0$, with roots $\alpha, \beta$</h2><script type="math/tex; mode=display">
+\sum \alpha = - \frac{b}{a}, \qquad \sum \alpha \beta = \frac{c}{a}.</script><h2 id="Cubics-ax-3-bx-2-cx-d-0-with-roots-alpha-beta-gamma"><a href="#Cubics-ax-3-bx-2-cx-d-0-with-roots-alpha-beta-gamma" class="headerlink" title="Cubics $ax^3 + bx^2 + cx + d = 0$, with roots $\alpha, \beta, \gamma$"></a>Cubics $ax^3 + bx^2 + cx + d = 0$, with roots $\alpha, \beta, \gamma$</h2><script type="math/tex; mode=display">
+\sum \alpha = - \frac{b}{a}, \qquad \sum \alpha \beta = \frac{c}{a}, \qquad  \sum \alpha \beta \gamma = -\frac{d}{a}.</script>]]></content>
+      <categories>
+        <category>Further Pure</category>
+        <category>Syllabus</category>
+      </categories>
+      <tags>
+        <tag>futherpure</tag>
+        <tag>polynomial</tag>
       </tags>
   </entry>
 </search>
