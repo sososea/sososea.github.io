@@ -163,13 +163,16 @@
 <hr>
 <h1 id="Special-cases-for-cubic-equation-with-roots-alpha-beta-gamma"><a href="#Special-cases-for-cubic-equation-with-roots-alpha-beta-gamma" class="headerlink" title="Special cases for cubic equation with roots  $\alpha, \beta, \gamma$."></a>Special cases for cubic equation with roots  $\alpha, \beta, \gamma$.</h1><p>i. </p>
 <script type="math/tex; mode=display">
-\sum \alpha^2 = \alpha^2 + \beta^2 + \gamma^2 = (\alpha + \beta + \gamma )^2 - 2(\alpha\beta + \beta \gamma + \alpha \gamma) = (\sum \alpha)^2 - 2 \sum \alpha \beta \\ \quad OR \quad S_2</script><p>ii. </p>
+\begin{aligned*}
+\sum \alpha^2 = \alpha^2 + \beta^2 + \gamma^2 & = (\alpha + \beta + \gamma )^2 - 2(\alpha\beta + \beta \gamma + \alpha \gamma) \\
+& = (\sum \alpha)^2 - 2 \sum \alpha \beta 
+\end{aligned* }</script><p>ii. </p>
 <script type="math/tex; mode=display">
 \sum \alpha^2 \beta ^2 = \alpha^2 \beta ^2 +  \beta ^2 \gamma^2 + \alpha^2 \gamma ^2 = (\alpha\beta + \beta\gamma + \alpha\gamma)^2 -  2\alpha\beta\gamma(\alpha + \beta + \gamma) = \big(\sum \alpha\beta \big)^2 - 2\sum \alpha \sum \alpha\beta\gamma.</script><p>iii. </p>
 <script type="math/tex; mode=display">
-\sum \frac{1}{\alpha} = \frac{1}{\alpha} + \frac{1}{\beta} + \frac{1}{\gamma} = \frac{\alpha\beta + \beta\gamma + \alpha\gamma}{\alpha\beta\gamma}= \frac{\sum \alpha\beta}{\sum \alpha\beta\gamma}. \quad OR \quad S_{-1}</script><p>iv.</p>
+\sum \frac{1}{\alpha} = \frac{1}{\alpha} + \frac{1}{\beta} + \frac{1}{\gamma} = \frac{\alpha\beta + \beta\gamma + \alpha\gamma}{\alpha\beta\gamma}= \frac{\sum \alpha\beta}{\sum \alpha\beta\gamma}.</script><p>iv.</p>
 <script type="math/tex; mode=display">
-\sum \alpha^3 = \alpha^3 + \beta^3 + \gamma^3 = (\alpha + \beta + gamma) \big((\alpha + \beta + gamma)^2 - 3(\alpha\beta + \beta\gamma + \alpha\gamma)\big) + 3 \alpha\beta\gamma .  \quad OR \quad S_3</script>]]></content>
+\sum \alpha^3 = \alpha^3 + \beta^3 + \gamma^3 = (\alpha + \beta + \gamma) \big((\alpha + \beta + \gamma)^2 - 3(\alpha\beta + \beta\gamma + \alpha\gamma)\big) + 3 \alpha\beta\gamma .</script>]]></content>
       <categories>
         <category>Further Pure</category>
         <category>Syllabus</category>
