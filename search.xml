@@ -201,7 +201,8 @@
 (K + V) \cap (C + V) = \emptyset
 \end{aligned}</script><p><strong>Propositon</strong>: If $W$ is a neighborhood of 0 in $X$, then there is a neighborhood $U$ of 0 which is symmetric (in the case that $U = -U$) and which satisfies $U + U \subseteq W$.<br><a id="more"></a></p>
 <hr>
-<p><strong>Theorem 2</strong> If $\mathscr{B}$</p>
+<p><strong>Theorem 2</strong> If $\mathscr{B}$ is a local base for a topological vector space $X$, then every member of $\mathscr{B}$ contains the closure of some member of $\mathscr{B}$</p>
+<p><font color=#FF00FF size=12 face="黑体">??? </font> what does this means?</p>
 ]]></content>
       <categories>
         <category>functional analysis</category>
