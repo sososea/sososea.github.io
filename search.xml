@@ -195,11 +195,13 @@
   <entry>
     <title>Functional Analysis</title>
     <url>/2020/06/25/Functional-Analysis/</url>
-    <content><![CDATA[<p>Theorem 1 : Suppose $K$ and $C$ are subsets of a topological vector space $X$,  $K$ is compact, $C$ is closed, and $K \cap C = \emptyset$. Then $0$ has a neighbhorhood $V$ such that</p>
+    <content><![CDATA[<p><strong>Theorem 1</strong> : Suppose $K$ and $C$ are subsets of a topological vector space $X$,  $K$ is compact, $C$ is closed, and $K \cap C = \emptyset$. Then $0$ has a neighbhorhood $V$ such that</p>
 <script type="math/tex; mode=display">
 \begin{aligned}
 (K + V) \cap (C + V) = \emptyset
-\end{aligned}</script>]]></content>
+\end{aligned}</script><p><strong>Propositon</strong>: If $W$ is a neighborhood of 0 in $X$, then there is a neighborhood $U$ of 0 which is symmetric (in the case that $U = -U$) and which satisfies $U + U \subsetequ W$.<br><a id="more"></a></p>
+<hr>
+]]></content>
       <categories>
         <category>functional analysis</category>
         <category>general theory</category>
