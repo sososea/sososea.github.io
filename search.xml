@@ -124,26 +124,26 @@
 <table>
 <thead>
 <tr>
-<th>Day</th>
-<th>time</th>
+<th style="text-align:center">Day</th>
+<th style="text-align:center">time</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Tuesday</td>
-<td>14:40-16:10</td>
+<td style="text-align:center">Tuesday</td>
+<td style="text-align:center">14:40-16:10</td>
 </tr>
 <tr>
-<td>Wednesday</td>
-<td>09:40-11:10</td>
+<td style="text-align:center">Wednesday</td>
+<td style="text-align:center">09:40-11:10</td>
 </tr>
 <tr>
-<td>Wednesday</td>
-<td>13:50-14:30</td>
+<td style="text-align:center">Wednesday</td>
+<td style="text-align:center">13:50-14:30</td>
 </tr>
 <tr>
-<td>Thursday</td>
-<td>14:40-16:10</td>
+<td style="text-align:center">Thursday</td>
+<td style="text-align:center">14:40-16:10</td>
 </tr>
 </tbody>
 </table>
@@ -153,26 +153,26 @@
 <table>
 <thead>
 <tr>
-<th>Day</th>
-<th>time</th>
+<th style="text-align:center">Day</th>
+<th style="text-align:center">time</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Monday</td>
-<td>08:00-09:30</td>
+<td style="text-align:center">Monday</td>
+<td style="text-align:center">08:00-09:30</td>
 </tr>
 <tr>
-<td>Tuesday</td>
-<td>09:40-10:20</td>
+<td style="text-align:center">Tuesday</td>
+<td style="text-align:center">09:40-10:20</td>
 </tr>
 <tr>
-<td>Thursday</td>
-<td>08:00-09:30</td>
+<td style="text-align:center">Thursday</td>
+<td style="text-align:center">08:00-09:30</td>
 </tr>
 <tr>
-<td>Wednesday</td>
-<td>09:40-11:10</td>
+<td style="text-align:center">Wednesday</td>
+<td style="text-align:center">09:40-11:10</td>
 </tr>
 </tbody>
 </table>
