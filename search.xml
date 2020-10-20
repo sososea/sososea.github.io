@@ -68,8 +68,7 @@
 <hr>
 <h3 id="Assessment"><a href="#Assessment" class="headerlink" title="Assessment"></a>Assessment</h3><p>One formal 2 hour written examination. All questions compulsory.</p>
 <h3 id="Full-syllabus"><a href="#Full-syllabus" class="headerlink" title="Full syllabus"></a>Full syllabus</h3><ol>
-<li><p><strong>Motion of a projectile</strong></p>
-<p>Candidates should be able to:</p>
+<li><p><strong>Motion of a projectile</strong><br>Candidates should be able to:</p>
 <ul>
 <li>model the motion of a projectile as a particle moving with constant acceleration and understand any limitations of the model</li>
 <li>use horizontal and vertical equations of motion to solve problems on the motion of projectiles, including finding the magnitude and direction  of the velocity at a given time or position, the range on a horizontal plane and the greatest height reached</li>
@@ -77,8 +76,7 @@
 <li>derive and use the Cartesian equation of the trajectory of a projectile, including problems in which the initial speed and/or angle of projection may be unknown.</li>
 </ul>
 </li>
-<li><p><strong>Equilibrium of a rigid body</strong></p>
-<p>Candidates should be able to:</p>
+<li><p><strong>Equilibrium of a rigid body</strong><br>Candidates should be able to:</p>
 <ul>
 <li>calculate the moment of a force about a point</li>
 <li>use the result that the effect of gravity on a rigid body is equivalent to a single force acting at the centre of mass of the body, and   identify the position of the centre of mass of a uniform body using considerations of symmetry</li>
@@ -88,8 +86,7 @@
 <li>solve problems involving the equilibrium of a single rigid body under the action of coplanar forces, including those involving toppling or    sliding.</li>
 </ul>
 </li>
-<li><p><strong>Circular motion</strong></p>
-<p>Candidates should be able to:</p>
+<li><p><strong>Circular motion</strong><br>Candidates should be able to:</p>
 <ul>
 <li>understand the concept of angular speed for a particle moving in a circle, and use the relation $v = rw$</li>
 <li>understand that the acceleration of a particle moving in a circle with constant speed is directed towards the centre of the circle, and use the<br>formulae $rw^2$  and $\frac{v^2}{r}$</li>
@@ -97,35 +94,32 @@
 <li>solve problems which can be modelled by the motion of a particle in a vertical circle without loss of energy. </li>
 </ul>
 </li>
-<li><p><strong>Hooke’s law</strong></p>
-<p>Candidates should be able to:</p>
+<li><p><strong>Hooke’s law</strong><br>Candidates should be able to:</p>
 <ul>
 <li>use Hooke’s law as a model relating the force in an elastic string or spring to the extension or compression, and understand the term modulus<br>of elasticity</li>
 <li>use the formula for the elastic potential energy stored in a string or spring</li>
 <li>solve problems involving forces due to elastic strings or springs, including those where considerations of work and energy are needed.</li>
 </ul>
 </li>
-<li><p><strong>Linear motion under a variable force</strong></p>
-<p>Candidates should be able to:</p>
+<li><p><strong>Linear motion under a variable force</strong><br>Candidates should be able to:</p>
 <ul>
 <li>solve problems which can be modelled as the linear motion of a particle under the action of a variable force, by setting up and solving an<br>appropriate differential equation.</li>
 </ul>
 </li>
-<li><p><strong>Momentum</strong></p>
-</li>
-</ol>
-<p>Candidates should be able to:</p>
+<li><p><strong>Momentum</strong><br>Candidates should be able to:</p>
 <ul>
 <li>recall Newton’s experimental law and thedefinition of the coefficient of restitution, the property $0\leq e \leq 1$, and the meaning of the<br>terms ‘perfectly elastic’ ($e = 1$) and ‘inelastic’ $(e = 0)$</li>
 <li>use conservation of linear momentum and/or Newton’s experimental law to solve problems that may be modelled as the direct or oblique impact  of  two smooth spheres, or the direct or oblique impact of a smooth sphere with a fixed surface.</li>
 </ul>
+</li>
+</ol>
 <h2 id="Timetable"><a href="#Timetable" class="headerlink" title="Timetable"></a>Timetable</h2><p><em>Group 2</em>:</p>
 <div class="table-container">
 <table>
 <thead>
 <tr>
 <th style="text-align:center">Day</th>
-<th style="text-align:center">time</th>
+<th style="text-align:center">Time</th>
 </tr>
 </thead>
 <tbody>
@@ -154,7 +148,7 @@
 <thead>
 <tr>
 <th style="text-align:center">Day</th>
-<th style="text-align:center">time</th>
+<th style="text-align:center">Time</th>
 </tr>
 </thead>
 <tbody>
