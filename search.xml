@@ -248,7 +248,64 @@
     <title>9231 Further Mechanics</title>
     <url>/2020/10/20/9231-Further-Mechanics/</url>
     <content><![CDATA[<p>There are six topics in Further Mechanics, we are going to cover all these topics in 40 double periods.<br><a id="more"></a></p>
-<p>A brief teaching plan is listed below<br>| Syntax      | Description |<br>| —————- | —————- |<br>| Momentum      | 6      |<br>| Equilibrium of a rigid body   | 11        |<br>| Circular motion      | 6      |<br>| Hooke’s law   | 6       |<br>| Projectile      | 6      |<br>| Linear motion under a variable force   | 5        |</p>
+<p>A brief teaching plan is listed below</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Syntax</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Momentum</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Equilibrium of a rigid body</td>
+<td>11</td>
+</tr>
+<tr>
+<td>Circular motion</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Hooke’s law</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Projectile</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Linear motion under a variable force</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>And</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Syntax</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Header</td>
+<td>Title</td>
+</tr>
+<tr>
+<td>Paragraph</td>
+<td>Text</td>
+</tr>
+</tbody>
+</table>
+</div>
 ]]></content>
       <categories>
         <category>Further Mechanics</category>
